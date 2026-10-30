@@ -1,33 +1,47 @@
 # next-gen-quantum-architecture
 
-Gen Quantum Arquitectura: arquitectura cuántica de próxima generación.
+# next-gen-quantum-architecture  Gen Quantum Arquitectura: arquitectura cuántica de próxima generación.  **Autor:** Lázaro López Paz · **Licencia:** MIT (ver `LICENSE`)
 
-**Autor:** Lázaro López Paz · **Licencia:** MIT (ver `LICENSE`)
+## Autoría
 
-## Carpetas de origen en Google Drive
+- **Autor:** Lázaro López Paz, El Prat de Llobregat, Barcelona, España
+- **ORCID:** [0000-0001-8601-1963](https://orcid.org/0000-0001-8601-1963)
+- Elaborado con asistencia de inteligencia artificial
+- Sin afiliaciones institucionales
 
-- https://drive.google.com/drive/folders/1jmgW_yupB8SkC2iAu-iVNTRpOTTqWnfd
+## Estado
 
-## Archivos incluidos
+Proyecto en desarrollo / documentación. No afirmar validación experimental salvo que el código o los informes del propio repositorio lo demuestren.
 
-- (ninguno legible como texto)
+## Contenido (raíz)
 
-## Pendiente: en Drive
+```
+DATOS_PENDIENTES.md
+datos_pendientes.yaml
+LICENSE
+README.md
+REFERENCIAS.md
+requirements.txt
+surface_code/
+tests/
+```
 
-Archivos binarios (presentaciones, PDFs grandes, vídeos, imágenes, zips, docx) que no se pudieron pasar a texto. Siguen en Drive:
+## Instalación
 
-- Next-Gen_Quantum_Architecture.pdf · pendiente: en Drive · https://drive.google.com/file/d/1A6LPma0Dv_6vBC_jImFSE5WNdVyGXLlf/view?usp=drivesdk
-- meta materiales 2026.png · pendiente: en Drive · https://drive.google.com/file/d/1qnstbFh5T6ag02_4ufhq7oc7eUJLeVju/view?usp=drivesdk
+```bash
+pip install -r requirements.txt
+```
 
-### Subcarpetas no importadas (pendiente: en Drive)
 
-- Next-Gen_Quantum_Architecture · https://drive.google.com/drive/folders/10N8X74xjN6sbGQ0contnypcS326cL6bS
+## Uso
 
----
-Los archivos `.trashed-*`, las copias («- copia») y los duplicados entre carpetas no se han listado.
+Archivos Python principales (revisar cada uno antes de ejecutar):
+- `surface_code/__init__.py`
+- `surface_code/pendientes.py`
+- `tests/conftest.py`
+- `tests/test_surface_code.py`
 
-## Módulo funcional `surface_code` (esperando datos)
 
-surface_code: estimación de recursos del código de superficie, p_L ≈ A (p/p_th)^((d+1)/2), con 2d²−1 qubits físicos por qubit lógico (Fowler et al. 2012). Los valores A=0,03 y p_th=0,0057 son el ejemplo público del artículo.
+## Licencia
 
-`pip install -r requirements.txt && python -m pytest -q`. Los datos que faltan están en [DATOS_PENDIENTES.md](DATOS_PENDIENTES.md).
+Ver archivo `LICENSE` (o `LICENSE.md`) en la raíz. Documentación bajo CC BY 4.0 cuando aplique; código habitualmente MIT, salvo indicación contraria.
